@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 const bodyParser = require("body-parser");
-const Blockchain = require('./Blockchain');
+const Blockchain = require('/home/sinyilin/Blockchain');
 const uuid = require("uuid/v1");
 const nodeAddress = uuid().split("-").join("");
 const chain = new Blockchain();
